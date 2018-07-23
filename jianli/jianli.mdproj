@@ -10,7 +10,7 @@
     <OutputPath>.\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="resume.html.html" />
+    <None Include="resume.html" />
     <None Include="css\style3.css" />
     <None Include="css\style2.css" />
     <None Include="css\style1.css" />
