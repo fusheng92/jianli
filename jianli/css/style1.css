@@ -1,13 +1,24 @@
-﻿div.info,div.apply,div.background,div.skill,div.project{
-    margin: 30px 0px;
+﻿p,h4 {
+    margin: 0;
+    padding: 0;
 }
 
-h1,span.title{
-    font-size:30px;
-    font:bold;
+.part1 p,
+.part2 p {
+    display: inline-block;
+    margin-right: 40px;
 }
 
-div.eachItem{
-    width:33%;
-    display:inline-block;
+em {
+    margin-right: 14px;
+    font-style: normal;
+    font: 700;
+}
+
+.section {
+    margin-bottom: 16px;
+}
+
+.section:last-child {
+    margin-bottom: 0;
 }

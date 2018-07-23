@@ -1,38 +1,43 @@
-﻿div.info, div.apply, div.background, div.skill, div.project {
-    margin: 30px 0px;
+﻿p, h4 {
+    margin: 0;
+    padding: 0;
 }
 
-h1, span.title {
-    font-size: 30px;
-    font: bold;
-}
-
-div.eachItem {
-    width: 33%;
+.part1 p,
+.part2 p {
     display: inline-block;
+    margin-right: 40px;
 }
 
-body{
-    width:90%;
-    max-width:900px;
-    margin:0 auto;
-    box-sizing:border-box;
-    display:flex;
+em {
+    margin-right: 14px;
+    font-style: normal;
+    font: 700;
 }
 
-
-div.head{
-    background-color:lightblue;
-    float:left;
-    width:20%;
+.section {
+    margin-bottom: 16px;
 }
 
-div.body {
-    float: right;
-    padding-left:20px;
+.section:last-child {
+    margin-bottom: 0;
 }
 
-div.head h1{
-    text-align:center;
+.header {
+    width: 20%;
+    float: left;
+    background-color: lightblue;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 3000px;
+    margin-bottom: -3000px;
 }
 
+.main {
+    float: left;
+}
+
+.page {
+    overflow: hidden;
+}
