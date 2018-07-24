@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "jianli", "jianli\jianli.mdproj", "{EBDC6754-B017-46B4-89F5-F146AFB60413}"
 EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MDN_p", "MDN_p\MDN_p.mdproj", "{3C2B3ABD-A658-498D-9421-D5E75F32E136}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "design", "design\design.mdproj", "{7BFF662B-5A07-4D0C-8165-6EA91ACE29A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Any CPU = Default|Any CPU
@@ -10,5 +14,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EBDC6754-B017-46B4-89F5-F146AFB60413}.Default|Any CPU.ActiveCfg = Default|Any CPU
 		{EBDC6754-B017-46B4-89F5-F146AFB60413}.Default|Any CPU.Build.0 = Default|Any CPU
+		{3C2B3ABD-A658-498D-9421-D5E75F32E136}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{3C2B3ABD-A658-498D-9421-D5E75F32E136}.Default|Any CPU.Build.0 = Default|Any CPU
+		{7BFF662B-5A07-4D0C-8165-6EA91ACE29A4}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{7BFF662B-5A07-4D0C-8165-6EA91ACE29A4}.Default|Any CPU.Build.0 = Default|Any CPU
 	EndGlobalSection
 EndGlobal

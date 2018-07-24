@@ -1,0 +1,183 @@
+
+/*head*/
+.head {
+    position: relative;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    position: absolute; /*子块居中：绝对定位+left: 0;right: 0;bottom: 0;top: 0;margin: auto;*/
+    margin: auto;
+    width: 960px;
+    height: 46px;
+    color: white;
+    font-size: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.title .logo {
+    font-size: 36px;
+    float: left;
+    height: 100%;
+    line-height: 46px;
+}
+
+.head .a{
+    display: inline-block;
+    float: right;
+}
+
+.a span {
+    margin-left: 3px;
+}
+
+.a a:link,a:visited {
+    color: white;
+}
+
+/*banner*/
+
+.banner {
+    background-color: #32CD32;
+    height: 150px;
+    position: relative;
+}
+
+
+
+.tagbox {
+    font-size: 0;
+    width: 960px;
+    position: absolute;
+    margin: 5px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tag {
+    width: 128px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+    .tag div {
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: bottom;
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        margin: 0 0 0 10px;
+        background-color: #00FA9A;
+    }
+
+
+    .tag div[class] {
+        height: 40px;
+        background-color: #E0FFFF;
+    }
+
+  /*nav*/
+
+  .nav {
+      box-sizing: border-box;
+      width: 100%;
+      height: 60px;
+      border-bottom:0.5px solid lightgrey;
+
+  }
+
+.tabbox {
+    box-sizing: border-box;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+
+  .tabbox .tab {
+      box-sizing: border-box;
+      position: absolute;
+      height: 40px;
+      left: 0;
+      bottom: 0;
+      font-size: 0;
+      margin: 0;
+      padding: 0;
+  }
+
+.tab div {
+    background-color: lightgray;
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    border: 0.5px solid grey;
+    border-radius: 8px 8px 0 0;
+    margin: -0.5px;/*此处改为margin-bottom无效。？？？？？*/
+}
+
+.tab .active {
+    background-color: white;
+    border-bottom-color: white;/*无法消除重复边框，暂时将边框颜色改为白色*/
+}
+
+/*content*/
+
+.content {
+    width: 100%;
+
+}
+
+.main {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    border: 0.5px solid lightgrey;
+    padding: 80px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*foot*/
+
+.foot {
+    background-color: darkgray;
+    margin-top: 15px;
+    height: 60px;
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    margin:10px auto;
+    font-size: 10px;
+    color: white;
+}
+
+
+ 
